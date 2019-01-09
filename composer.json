@@ -1,0 +1,34 @@
+{
+  "name": "csineneo/vivaldi-club-bbcode",
+  "description": "用於 vivaldi.club 的 bbcode",
+  "keywords": [
+    "flarum",
+    "bbcode"
+  ],
+  "type": "flarum-extension",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Csineneo",
+      "email": "csineneo@gmail.com",
+      "homepage": "https://vivaldi.club"
+    }
+  ],
+  "support": {
+    "source": "https://github.com/Csineneo/vivaldi-club-bbcode",
+    "issues": "https://vivaldi.club/t/flarum"
+  },
+  "require": {
+    "flarum/core": "^0.1.0-beta.8"
+  },
+  "extra": {
+    "flarum-extension": {
+      "title": "BBCode for vivaldi.club",
+        "icon": {
+					"name": "fas fa-terminal",
+					"color": "#000",
+          "backgroundColor": "#fff"
+        }
+    }
+  }
+}
