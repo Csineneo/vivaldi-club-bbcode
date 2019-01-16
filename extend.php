@@ -30,7 +30,7 @@ return (new Extend\Formatter)
 		);
 
 		$config->BBCodes->addCustom(
-			'[TOFU]Snapshot[/TOFU]',
+			'[TOFU]{TEXT}[/TOFU]',
 			'<div class="tofu-snapshot">這是一個測試版本，它包含未完善的特性和翻譯，存在未修復的問題，並且未經過完整的測試，可能會造成某些功能無法正常使用、頻繁崩潰、或資料丟失等。請謹慎安裝使用，安裝前請務必備份您的資料。</div>'
 		);
 
